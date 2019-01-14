@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="jason-zuo.github.io/"/>
-  <updated>2018-11-13T03:15:48.357Z</updated>
+  <updated>2019-01-14T08:42:49.355Z</updated>
   <id>jason-zuo.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>设计模式学习</title>
+    <link href="jason-zuo.github.io/2018/11/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0/"/>
+    <id>jason-zuo.github.io/2018/11/18/设计模式学习/</id>
+    <published>2018-11-18T09:54:55.000Z</published>
+    <updated>2019-01-14T08:42:49.355Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Vue构建个人移动ui框架</title>
+    <link href="jason-zuo.github.io/2018/11/14/vue%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%A7%BB%E5%8A%A8ui%E6%A1%86%E6%9E%B6/"/>
+    <id>jason-zuo.github.io/2018/11/14/vue构建个人移动ui框架/</id>
+    <published>2018-11-14T07:20:27.000Z</published>
+    <updated>2019-01-14T08:42:28.676Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Http学习</title>
     <link href="jason-zuo.github.io/2018/11/12/http%E5%AD%A6%E4%B9%A0/"/>
     <id>jason-zuo.github.io/2018/11/12/http学习/</id>
     <published>2018-11-12T11:54:06.000Z</published>
-    <updated>2018-11-13T03:15:48.357Z</updated>
+    <updated>2019-01-14T08:42:04.030Z</updated>
     
     <content type="html"><![CDATA[<h4 id="http学习"><a href="#http学习" class="headerlink" title="http学习"></a>http学习</h4><h5 id="一、打开浏览器输入url有关数据加载过程"><a href="#一、打开浏览器输入url有关数据加载过程" class="headerlink" title="一、打开浏览器输入url有关数据加载过程"></a>一、打开浏览器输入url有关数据加载过程</h5><h5 id="二、网络协议分层"><a href="#二、网络协议分层" class="headerlink" title="二、网络协议分层"></a>二、网络协议分层</h5><p>五层网络模型： 应用层、传输层、网络层、数据链路层、物理层</p>]]></content>
     
@@ -42,7 +70,7 @@
     <link href="jason-zuo.github.io/2018/11/11/%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/"/>
     <id>jason-zuo.github.io/2018/11/11/前端模块化/</id>
     <published>2018-11-11T08:07:08.000Z</published>
-    <updated>2018-11-11T09:23:08.554Z</updated>
+    <updated>2019-01-14T08:42:42.451Z</updated>
     
     <content type="html"><![CDATA[<h4 id="前端模块化"><a href="#前端模块化" class="headerlink" title="前端模块化"></a>前端模块化</h4><p>前端模块化分类总结:</p><table><thead><tr><th>名称</th><th>require.js</th><th>common.js</th><th>AMD</th><th>CMD</th><th>UMD</th></tr></thead><tbody><tr><td>定义</td><td>require</td><td>中等文本</td><td>稍微长一点的文本</td><td>稍微长一</td><td>稍微长一</td></tr><tr><td>导出</td><td>稍微长一点的文本</td><td>短文本</td><td>中等文本</td><td>中等文本</td><td>稍微长一</td></tr></tbody></table><h5 id="一、require-js"><a href="#一、require-js" class="headerlink" title="一、require.js"></a>一、require.js</h5><p>代码示例：<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">fun1</span><span class="params">()</span></span>&#123;</span><br><span class="line">      alert(<span class="string">"it works"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    fun1();</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p><p>优点：防止js加载阻塞页面渲染、 使用程序调用的方式加载js，防出现如下丑陋的场景</p>]]></content>
     
@@ -68,7 +96,7 @@
     <link href="jason-zuo.github.io/2018/11/06/webpack%E6%8F%92%E4%BB%B6%E4%BB%A5%E5%8F%8Aapi%E6%80%BB%E7%BB%93/"/>
     <id>jason-zuo.github.io/2018/11/06/webpack插件以及api总结/</id>
     <published>2018-11-06T03:03:56.000Z</published>
-    <updated>2018-11-06T03:08:28.737Z</updated>
+    <updated>2019-01-14T08:42:32.646Z</updated>
     
     <content type="html"><![CDATA[<h5 id="webpack插件以及api总结"><a href="#webpack插件以及api总结" class="headerlink" title="webpack插件以及api总结"></a>webpack插件以及api总结</h5><h5 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h5><h5 id="二、"><a href="#二、" class="headerlink" title="二、"></a>二、</h5><h5 id="三、"><a href="#三、" class="headerlink" title="三、"></a>三、</h5>]]></content>
     
@@ -89,7 +117,7 @@
     <link href="jason-zuo.github.io/2018/11/04/nginx%E5%B8%B8%E8%A7%81%E9%85%8D%E7%BD%AE/"/>
     <id>jason-zuo.github.io/2018/11/04/nginx常见配置/</id>
     <published>2018-11-04T08:56:51.000Z</published>
-    <updated>2018-11-04T08:56:51.050Z</updated>
+    <updated>2019-01-14T08:42:11.064Z</updated>
     
     <summary type="html">
     
@@ -103,7 +131,7 @@
     <link href="jason-zuo.github.io/2018/10/30/%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD/"/>
     <id>jason-zuo.github.io/2018/10/30/函数重载/</id>
     <published>2018-10-30T09:18:47.000Z</published>
-    <updated>2018-10-31T03:12:52.156Z</updated>
+    <updated>2019-01-14T08:42:39.059Z</updated>
     
     <content type="html"><![CDATA[<h4 id="函数重载"><a href="#函数重载" class="headerlink" title="函数重载"></a>函数重载</h4><blockquote><p>指函数或者方法有相同的名称，但是参数的个数或者类型不相同的类型，这样同名但是不同参的函数互相称之为重载函数或者方法</p></blockquote><p>两种思想 ： 1、利用arguments类数组来判断接受参数的个数。 2、利用闭包保存以前注册进来的同名函数。利用闭包和args实现 3、或者通过proxy和arguments实现<br>。</p><p>1、</p>]]></content>
     
@@ -125,7 +153,7 @@
     <link href="jason-zuo.github.io/2018/10/29/socket-io/"/>
     <id>jason-zuo.github.io/2018/10/29/socket-io/</id>
     <published>2018-10-29T09:32:58.000Z</published>
-    <updated>2018-10-29T09:33:11.253Z</updated>
+    <updated>2019-01-14T08:42:24.870Z</updated>
     
     <content type="html"><![CDATA[<h4 id="socket-io"><a href="#socket-io" class="headerlink" title="socket.io"></a>socket.io</h4>]]></content>
     
@@ -146,7 +174,7 @@
     <link href="jason-zuo.github.io/2018/10/29/react16-6%E6%96%B0api%E5%AD%A6%E4%B9%A0/"/>
     <id>jason-zuo.github.io/2018/10/29/react16-6新api学习/</id>
     <published>2018-10-29T08:37:41.000Z</published>
-    <updated>2018-10-29T09:30:07.771Z</updated>
+    <updated>2019-01-14T08:42:14.825Z</updated>
     
     <content type="html"><![CDATA[<h4 id="react16-6学习"><a href="#react16-6学习" class="headerlink" title="react16.6学习"></a>react16.6学习</h4><h5 id="一、lazy"><a href="#一、lazy" class="headerlink" title="一、lazy"></a>一、lazy</h5><blockquote><p>配合suspense组件</p></blockquote><h6 id="二、React-memo"><a href="#二、React-memo" class="headerlink" title="二、React.memo"></a>二、React.memo</h6><h5 id="三、static-contextType"><a href="#三、static-contextType" class="headerlink" title="三、static.contextType"></a>三、static.contextType</h5>]]></content>
     
@@ -169,7 +197,7 @@
     <link href="jason-zuo.github.io/2018/09/10/snabbdom%E6%BA%90%E7%A0%81%E4%BB%A5%E5%8F%8A%E8%99%9A%E6%8B%9Fdom%E5%AD%A6%E4%B9%A0/"/>
     <id>jason-zuo.github.io/2018/09/10/snabbdom源码以及虚拟dom学习/</id>
     <published>2018-09-10T15:29:58.000Z</published>
-    <updated>2018-09-10T15:29:58.528Z</updated>
+    <updated>2019-01-14T08:42:21.339Z</updated>
     
     <summary type="html">
     
@@ -183,7 +211,7 @@
     <link href="jason-zuo.github.io/2018/04/05/mvvm%E6%A1%86%E6%9E%B6%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/"/>
     <id>jason-zuo.github.io/2018/04/05/mvvm框架基本实现原理学习/</id>
     <published>2018-04-05T14:42:54.000Z</published>
-    <updated>2018-04-05T14:42:54.359Z</updated>
+    <updated>2019-01-14T08:42:07.776Z</updated>
     
     <summary type="html">
     
@@ -197,7 +225,7 @@
     <link href="jason-zuo.github.io/2018/03/29/webstorm%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7/"/>
     <id>jason-zuo.github.io/2018/03/29/webstorm中英文对照/</id>
     <published>2018-03-29T14:52:54.000Z</published>
-    <updated>2018-03-29T14:54:39.937Z</updated>
+    <updated>2019-01-14T08:42:35.791Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>看着webstorm的强大，决定适应一下使用websorm，再次记录一下编译器的英文选项对照</p></blockquote><p>1、</p>]]></content>
     
@@ -222,16 +250,16 @@
     <link href="jason-zuo.github.io/2018/02/26/%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2%E4%B8%8B%E8%BD%BDios-app/"/>
     <id>jason-zuo.github.io/2018/02/26/前端页面下载ios-app/</id>
     <published>2018-02-26T05:30:58.000Z</published>
-    <updated>2018-03-01T17:21:45.545Z</updated>
+    <updated>2018-11-19T06:30:27.629Z</updated>
     
-    <content type="html"><![CDATA[<p>首先会有两个 ios 开发提供的文件包，分别是以 </p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">.plist</span></span><br></pre></td></tr></table></figure><p>和</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">.ipa</span></span><br></pre></td></tr></table></figure><p>作为文件后缀</p><p>在前端中 a 标签里拼接路径需要按照一下路径格式</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">itms-services:<span class="regexp">//</span>?action=download-manifest&amp;url=https:<span class="regexp">//</span>www.xx.com<span class="regexp">/download/</span>xx.plist</span><br></pre></td></tr></table></figure><p>并且在 <figure class="highlight plain"><figcaption><span>以及两张大小尺寸图片</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### .plist文件基本内容如下</span><br></pre></td></tr></table></figure></p><p>&lt;?xml version=”1.0” encoding=”UTF-8”?&gt;<br>&lt;!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “<a href="http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;" target="_blank" rel="noopener">http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</a></p><plist version="1.0"><br><dict><br>    <key>items</key><br>    <array><br>        <dict><br>            <key>assets</key><br>            <array><br>                <dict><br>                    <key>kind</key><br>                    <string>software-package</string><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/uploads/soft/150518/app-A.ipa" target="_blank" rel="noopener">http://www.xxxx.com/uploads/soft/150518/app-A.ipa</a></string><br>                </dict><br>                <dict><br>                    <key>kind</key><br>                    <string>full-size-image</string><br>                    <key>needs-shine</key><br>                    <true><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/image.512x512.jpg" target="_blank" rel="noopener">http://www.xxxx.com/image.512x512.jpg</a></string><br>                </true></dict><br>                <dict><br>                    <key>kind</key><br>                    <string>display-image</string><br>                    <key>needs-shine</key><br>                    <true><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/image.57x57.png" target="_blank" rel="noopener">http://www.xxxx.com/image.57x57.png</a></string><br>                </true></dict><br>            </array><br>            <key>metadata</key><br>            <dict><br>                <key>bundle-identifier</key><br>                <string>com.xxx.xxx</string><br>                <key>bundle-version</key><br>                <string>2.0</string><br>                <key>kind</key><br>                <string>software</string><br>                <key>title</key><br>                <string>Installing the app</string><br>            </dict><br>        </dict><br>    </array><br></dict><br></plist><p>```</p>]]></content>
+    <content type="html"><![CDATA[<p>首先会有两个 ios 开发提供的文件包，分别是以</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">.plist</span></span><br></pre></td></tr></table></figure><p>和</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">.ipa</span></span><br></pre></td></tr></table></figure><p>作为文件后缀</p><p>在前端中 a 标签里拼接路径需要按照一下路径格式</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">itms-services:<span class="regexp">//</span>?action=download-manifest&amp;url=https:<span class="regexp">//</span>www.xx.com<span class="regexp">/download/</span>xx.plist</span><br></pre></td></tr></table></figure><p>并且在 <figure class="highlight plain"><figcaption><span>以及两张大小尺寸图片</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### .plist文件基本内容如下</span><br></pre></td></tr></table></figure></p><p>&lt;?xml version=”1.0” encoding=”UTF-8”?&gt;<br>&lt;!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “<a href="http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;" target="_blank" rel="noopener">http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</a></p><plist version="1.0"><br><dict><br>    <key>items</key><br>    <array><br>        <dict><br>            <key>assets</key><br>            <array><br>                <dict><br>                    <key>kind</key><br>                    <string>software-package</string><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/uploads/soft/150518/app-A.ipa" target="_blank" rel="noopener">http://www.xxxx.com/uploads/soft/150518/app-A.ipa</a></string><br>                </dict><br>                <dict><br>                    <key>kind</key><br>                    <string>full-size-image</string><br>                    <key>needs-shine</key><br>                    <true><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/image.512x512.jpg" target="_blank" rel="noopener">http://www.xxxx.com/image.512x512.jpg</a></string><br>                </true></dict><br>                <dict><br>                    <key>kind</key><br>                    <string>display-image</string><br>                    <key>needs-shine</key><br>                    <true><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/image.57x57.png" target="_blank" rel="noopener">http://www.xxxx.com/image.57x57.png</a></string><br>                </true></dict><br>            </array><br>            <key>metadata</key><br>            <dict><br>                <key>bundle-identifier</key><br>                <string>com.xxx.xxx</string><br>                <key>bundle-version</key><br>                <string>2.0</string><br>                <key>kind</key><br>                <string>software</string><br>                <key>title</key><br>                <string>Installing the app</string><br>            </dict><br>        </dict><br>    </array><br></dict><br></plist><p>```</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;首先会有两个 ios 开发提供的文件包，分别是以 &lt;/p&gt;
-&lt;figure class=&quot;highlight asciidoc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;
+        &lt;p&gt;首先会有两个 ios 开发提供的文件包，分别是以&lt;/p&gt;
+&lt;figure class=&quot;highlight asciidoc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;
       
     
     </summary>

@@ -2,72 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>jason-zuo.github.io/2018/11/12/http%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>jason-zuo.github.io/2018/11/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0/</loc>
     
-    <lastmod>2018-11-13T03:15:48.357Z</lastmod>
+    <lastmod>2019-01-14T08:42:49.355Z</lastmod>
     
   </url>
   
   <url>
     <loc>jason-zuo.github.io/2018/11/11/%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/</loc>
     
-    <lastmod>2018-11-11T09:23:08.554Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jason-zuo.github.io/2018/11/06/webpack%E6%8F%92%E4%BB%B6%E4%BB%A5%E5%8F%8Aapi%E6%80%BB%E7%BB%93/</loc>
-    
-    <lastmod>2018-11-06T03:08:28.737Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jason-zuo.github.io/2018/11/04/nginx%E5%B8%B8%E8%A7%81%E9%85%8D%E7%BD%AE/</loc>
-    
-    <lastmod>2018-11-04T08:56:51.050Z</lastmod>
+    <lastmod>2019-01-14T08:42:42.451Z</lastmod>
     
   </url>
   
   <url>
     <loc>jason-zuo.github.io/2018/10/30/%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD/</loc>
     
-    <lastmod>2018-10-31T03:12:52.156Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jason-zuo.github.io/2018/10/29/socket-io/</loc>
-    
-    <lastmod>2018-10-29T09:33:11.253Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jason-zuo.github.io/2018/10/29/react16-6%E6%96%B0api%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2018-10-29T09:30:07.771Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jason-zuo.github.io/2018/09/10/snabbdom%E6%BA%90%E7%A0%81%E4%BB%A5%E5%8F%8A%E8%99%9A%E6%8B%9Fdom%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2018-09-10T15:29:58.528Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jason-zuo.github.io/2018/04/05/mvvm%E6%A1%86%E6%9E%B6%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2018-04-05T14:42:54.359Z</lastmod>
+    <lastmod>2019-01-14T08:42:39.059Z</lastmod>
     
   </url>
   
   <url>
     <loc>jason-zuo.github.io/2018/03/29/webstorm%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7/</loc>
     
-    <lastmod>2018-03-29T14:54:39.937Z</lastmod>
+    <lastmod>2019-01-14T08:42:35.791Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/11/06/webpack%E6%8F%92%E4%BB%B6%E4%BB%A5%E5%8F%8Aapi%E6%80%BB%E7%BB%93/</loc>
+    
+    <lastmod>2019-01-14T08:42:32.646Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/11/14/vue%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%A7%BB%E5%8A%A8ui%E6%A1%86%E6%9E%B6/</loc>
+    
+    <lastmod>2019-01-14T08:42:28.676Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/10/29/socket-io/</loc>
+    
+    <lastmod>2019-01-14T08:42:24.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/09/10/snabbdom%E6%BA%90%E7%A0%81%E4%BB%A5%E5%8F%8A%E8%99%9A%E6%8B%9Fdom%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-01-14T08:42:21.339Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/10/29/react16-6%E6%96%B0api%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-01-14T08:42:14.825Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/11/04/nginx%E5%B8%B8%E8%A7%81%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2019-01-14T08:42:11.064Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/04/05/mvvm%E6%A1%86%E6%9E%B6%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-01-14T08:42:07.776Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/11/12/http%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-01-14T08:42:04.030Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>jason-zuo.github.io/2018/02/26/%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2%E4%B8%8B%E8%BD%BDios-app/</loc>
+    
+    <lastmod>2018-11-19T06:30:27.629Z</lastmod>
     
   </url>
   
@@ -82,13 +103,6 @@
     <loc>jason-zuo.github.io/2017/11/15/react-touch-loader%E7%BB%84%E4%BB%B6%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2018-03-01T17:22:05.145Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jason-zuo.github.io/2018/02/26/%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2%E4%B8%8B%E8%BD%BDios-app/</loc>
-    
-    <lastmod>2018-03-01T17:21:45.545Z</lastmod>
     
   </url>
   
