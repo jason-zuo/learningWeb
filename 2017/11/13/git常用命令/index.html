@@ -1,0 +1,305 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><title>Git常用命令(完全学会git的24节课笔记) | 前端</title><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="format-detection" content="telephone=no"><meta name="author" content="大左"><meta name="designer" content="minfive"><meta name="keywords" content="dazuo, 大左, jason-zuo, 前端博客, 前端, 程序员, 前端开发, javascript"><meta name="description" content="日常学习与兴趣交流的个人博客"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=yes"><meta name="mobile-web-app-capable" content="yes"><meta name="robots" content="all"><link rel="canonical" href="jason-zuo.github.io/2017/11/13/git常用命令/index.html"><link rel="icon" type="image/png" href="http://oo12ugek5.bkt.clouddn.com/blog/images/favicon.ico" sizes="32x32"><link rel="stylesheet" href="../../../../scss/base/index.css"><link rel="alternate" href="../../../../atom.xml" title="前端 -- 大左"><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?0d4b090e7bc08c55188cc581584714ac";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><link rel="stylesheet" href="../../../../scss/views/page/post.css"></head><body ontouchstart><div id="page-loading" class="page page-loading" style="background-image:url(http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif)"></div><div id="page" class="page js-hidden"><header class="page__small-header page__header--small"><nav class="page__navbar"><div class="page__container navbar-container"><a class="page__logo" href="../../../../index.html" title="前端 -- 大左" alt="前端 -- 大左"><img src="http://fs.jasonzuo.cn/logo.png" alt="前端 -- 大左"></a><nav class="page__nav"><ul class="nav__list clearfix"><li class="nav__item"><a href="/" alt="首页" title="首页">首页</a></li><li class="nav__item"><a href="/archives" alt="归档" title="归档">归档</a></li><li class="nav__item"><a href="/demo" alt="作品" title="作品">作品</a></li><li class="nav__item"><a href="/music" alt="音乐" title="音乐">音乐</a></li><li class="nav__item"><a href="/about" alt="关于" title="关于">关于</a></li></ul></nav><button class="page__menu-btn" type="button"><i class="iconfont icon-menu"></i></button></div></nav></header><main class="page__container page__main"><div class="page__content"><article class="page__post"><div class="post__cover"><img src="http://fs.jasonzuo.cn/nicole-mason-19741.jpg" alt="Git常用命令(完全学会git的24节课笔记)"></div><header class="post__info"><h1 class="post__title">Git常用命令(完全学会git的24节课笔记)</h1><div class="post__mark"><div class="mark__block"><i class="mark__icon iconfont icon-write"></i><ul class="mark__list clearfix"><li class="mark__item"><a href="../../../../index.html">大左</a></li></ul></div><div class="mark__block"><i class="mark__icon iconfont icon-time"></i><ul class="mark__list clearfix"><li class="mark__item"><span>2017-11-13</span></li></ul></div><div class="mark__block"><i class="mark__icon iconfont icon-tab"></i><ul class="mark__list clearfix"><li class="mark__item"><a href="../../../../tags/git/">Git</a></li></ul></div></div></header><div class="post__content"><h4 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h4><h4 id="一、git分支提交"><a href="#一、git分支提交" class="headerlink" title="一、git分支提交"></a>一、git分支提交</h4><h6 id="1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。"><a href="#1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。" class="headerlink" title="1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。"></a>1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git push origin <span class="built_in">test</span>:master</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>提交本地test分支作为远程的master分支<br>$ git push origin test:test              // 提交本地test分支作为远程的test分支</p>
+</blockquote>
+<p>如果想删除远程的分支呢？类似于上面，如果:左边的分支为空，那么将删除:右边的远程的分支。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git push origin :<span class="built_in">test</span></span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p> 刚提交到远程的test将被删除，但是本地还会保存的，不用担心</p>
+</blockquote>
+<h6 id="2、展示当前代码仓库地址"><a href="#2、展示当前代码仓库地址" class="headerlink" title="2、展示当前代码仓库地址"></a>2、展示当前代码仓库地址</h6><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git remote -v</span></span><br></pre></td></tr></table></figure>
+<h6 id="3、如果在commit之后想更改刚才提交的commit信息可以执行"><a href="#3、如果在commit之后想更改刚才提交的commit信息可以执行" class="headerlink" title="3、如果在commit之后想更改刚才提交的commit信息可以执行"></a>3、如果在commit之后想更改刚才提交的commit信息可以执行</h6><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit <span class="params">--amend</span> -m <span class="string">"新的信息"</span> <span class="params">--author=</span><span class="string">"用户名 &lt;邮箱&gt;"</span></span><br></pre></td></tr></table></figure>
+<h6 id="4、-查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）"><a href="#4、-查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）" class="headerlink" title="4、 查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）"></a>4、 查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）</h6><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">gitk</span></span><br></pre></td></tr></table></figure>
+<p>此时右下角的方块里显示两种模式一种是patch模式一种是tree模式</p>
+<p>patch： 记录了前后两次commit的差异</p>
+<p>tree： 完整显示当前commit上文件内容</p>
+<p>查看完文档之后结束图形操作模式，回到git bash执行<br></p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure><p></p>
+<p>这样下次在启动git bash会自动恢复之前离开的状态</p>
+<h6 id="5、git的基本工作原理"><a href="#5、git的基本工作原理" class="headerlink" title="5、git的基本工作原理"></a>5、git的基本工作原理</h6><p>先修改文件，之后执行git add命令之后会把文件内容加入git系统的索引，接着执行git commit 指令将文件存入文档库。</p>
+<h5 id="二、git配置文件"><a href="#二、git配置文件" class="headerlink" title="二、git配置文件"></a>二、git配置文件</h5><p>git有三个不同级别的配置文件，他们有不同的优先权，高优先权的文件设置项会覆盖低优先权文件中相同的设置项。</p>
+<ul>
+<li>文件中的  .git  子文件中的config文件<br>拥有最高的优先权。也就是说他的设置会覆盖其他配置文件中相同的设置项，例如在该文件中设置了A = B的话在别的文件中红设置A = C是不生效果的 （只针对当前文档库）</li>
+</ul>
+<ul>
+<li>登陆账号的   home directory 中的.gitconfig文件<br>只有在前一个配置文件中没有设置的项，这个配置 文档的设置才会生效</li>
+</ul>
+<ul>
+<li>git程序的安装文件夹中的    etc/gitcofig文件<br>  只有前两个文件中没有设置的项，在这个配置文件中设置才会生效，这是公共的配置文件，对所有的git文档库都生效。</li>
+</ul>
+<h6 id="1、git-config指令的使用"><a href="#1、git-config指令的使用" class="headerlink" title="1、git config指令的使用"></a>1、git config指令的使用</h6><p>查看当前git的设置值用</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>-l</span><br></pre></td></tr></table></figure>
+<p>该指令会显示配置文件中所有的设置项，先显示优先级最低的设置</p>
+<p>也即是前面的第三种文件形式中的设置， 接着是home directory中的最后优先级最高的文件设置。</p>
+<h6 id="2、git-config配置命令"><a href="#2、git-config配置命令" class="headerlink" title="2、git config配置命令"></a>2、git config配置命令</h6><p>每次commit中的–author选项的默认配置<br></p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>user.name <span class="string">"操作者姓名"</span></span><br><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>user.email <span class="string">"操作者的email"</span></span><br></pre></td></tr></table></figure><p></p>
+<p>配置在登陆账号home directory中的.gitconfig文件<br></p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--global user.name <span class="string">"操作者姓名"</span></span><br><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>--global user.email <span class="string">"操作者的email"</span></span><br></pre></td></tr></table></figure><p></p>
+<p>以上配置项还可以写在安装程序中</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--system user.name <span class="string">"姓名"</span></span><br><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>--system user.email <span class="string">"email"</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>也就是说git config的选项可以写入任意i一个config配置文件中，–global 表示home directory中的.gitconfig配置文件，-system 表示git中的-etc\gitconfig 配置文件。</p>
+</blockquote>
+<p>如果要删除配置项目则执行</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>--unset user.name</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>git 指令的长短，例如git commit -m 的完整指令是git commit –message= ,而git config -l的完整写法是git config –list</p>
+</blockquote>
+<p>下边这一指令表示自定义长指令<br></p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>alias.指令的别名“正式的指令和选项”</span><br></pre></td></tr></table></figure><p></p>
+<h5 id="3、修改默认的文本编辑器和文本对比程序"><a href="#3、修改默认的文本编辑器和文本对比程序" class="headerlink" title="3、修改默认的文本编辑器和文本对比程序"></a>3、修改默认的文本编辑器和文本对比程序</h5><blockquote>
+<p>使用背景 ：在commit的时候输入message过长可以使用文本编辑器</p>
+</blockquote>
+<p>程序默认的编辑器是vm编辑器</p>
+<p>可以将起换成win自带的记事本命令如下:</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--global core.editor notepad</span><br></pre></td></tr></table></figure>
+<p>如果想换成其他的编辑器，只要把nodepad换成其他程序的路径，如果路径中有空格可以用单引号或者双信号括起来，并加上启动程序的选项。</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--global core.editor <span class="string">"'c:/program Files (x86) /Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"</span></span><br></pre></td></tr></table></figure>
+<p>对比文件</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git diff</span></span><br></pre></td></tr></table></figure>
+<p>以下指令是对比文件所用的软件，需要自行配置<br></p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git difftool</span></span><br></pre></td></tr></table></figure><p></p>
+<h5 id="三、把文件传入git仓库"><a href="#三、把文件传入git仓库" class="headerlink" title="三、把文件传入git仓库"></a>三、把文件传入git仓库</h5><p>。。。未完待续</p>
+
+
+        
+        <div class="post-announce">
+            感谢您的阅读，本文由
+            <a href="jason-zuo.github.io">前端 -- 大左</a>
+            版权所有。如若转载，请注明出处：前端 -- 大左（<a href="jason-zuo.github.io../../../../index.html">jason-zuo.github.io../../../../index.html</a>）
+        </div>
+
+        <div class="post__prevs">
+            <div class="post__prev">
+                
+            </div>
+            <div class="post__prev post__prev--right">
+                
+                <a href="../../15/react-touch-loader组件学习/" title="React-Touch-Loader组件学习">React-Touch-Loader组件学习<i class="iconfont icon-next"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+        
+        
+    </div>
+
+    <aside class="page__sidebar">
+    
+
+    <form id="page-search-from" class="page__search-from" action="/search/">
+        <label class="search-form__item">
+            <input class="input" type="text" name="search" placeholder="Search...">
+            <i class="iconfont icon-search"></i>
+        </label>
+    </form>
+
+    
+        <div class="sidebar__block">
+            <h3 class="block__title">简介</h3>
+            <p class="block__text">日常学习与兴趣交流的个人博客</p>
+        </div>
+    
+
+    <div class="sidebar__block">
+        <h3 class="block__title">文章分类</h3>
+        
+    </div>
+    
+    <div class="sidebar__block">
+        <h3 class="block__title">最新文章</h3>
+        
+        <ul class="block-list latest-post-list">
+            
+                    <li class="latest-post-item">
+                        <a href="../../../../2018/11/12/http学习/" title="Http学习">
+                            <div class="item__cover">
+                                <img src="undefined" alt="Http学习">
+                            </div>
+                            <div class="item__info">
+                                <h3 class="item__title">Http学习</h3>
+                                <span class="item__text">2018-11-12</span>
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class="latest-post-item">
+                        <a href="../../../../2018/11/11/前端模块化/" title="前端模块化">
+                            <div class="item__cover">
+                                <img src="undefined" alt="前端模块化">
+                            </div>
+                            <div class="item__info">
+                                <h3 class="item__title">前端模块化</h3>
+                                <span class="item__text">2018-11-11</span>
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class="latest-post-item">
+                        <a href="../../../../2018/11/06/webpack插件以及api总结/" title="Webpack插件以及api总结">
+                            <div class="item__cover">
+                                <img src="undefined" alt="Webpack插件以及api总结">
+                            </div>
+                            <div class="item__info">
+                                <h3 class="item__title">Webpack插件以及api总结</h3>
+                                <span class="item__text">2018-11-06</span>
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class="latest-post-item">
+                        <a href="../../../../2018/11/04/nginx常见配置/" title="Nginx常见配置">
+                            <div class="item__cover">
+                                <img src="undefined" alt="Nginx常见配置">
+                            </div>
+                            <div class="item__info">
+                                <h3 class="item__title">Nginx常见配置</h3>
+                                <span class="item__text">2018-11-04</span>
+                            </div>
+                        </a>
+                    </li>
+                
+        </ul>
+    
+    </div>
+
+    <div class="sidebar__block">
+        <h3 class="block__title">文章标签</h3>
+        
+        <ul class="block-list tag-list clearfix">
+            
+                    <li class="tag-item">
+                        <a class="tag-link" href="../../../../tags/git/">git</a>
+                    </li>  
+                
+                    <li class="tag-item">
+                        <a class="tag-link" href="../../../../tags/react/">react</a>
+                    </li>  
+                
+                    <li class="tag-item">
+                        <a class="tag-link" href="../../../../tags/组件学习/">组件学习</a>
+                    </li>  
+                
+        </ul>
+    
+    </div>
+
+    
+</aside>
+</main>
+
+
+        
+            
+<footer class="page__footer">
+    <section class="footer__top">
+        <div class="page__container footer__container">
+            
+            <div class="footer-top__item footer-top__item--2">
+                <h3 class="item__title">关于</h3>
+                <div class="item__content">
+                    <p class="item__text">本站基于hexo，主题选用hexo-theme-skapp ,记录学习过程以及知识点总结。</p>
+                    <ul class="footer__contact-info">
+                        <li class="contact-info__item">
+                            <i class="iconfont icon-address"></i>
+                            <span>Beijing, China</span>
+                        </li>
+                        <li class="contact-info__item">
+                            <i class="iconfont icon-email2"></i>
+                            <span>zuozh05@163.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+                
+                    <div class="footer-top__item">
+                        <h3 class="item__title">友情链接</h3>
+                        <div class="item__content">
+                            <ul class="footer-top__list">
+                                
+                                    <li class="list-item">
+                                        <a href="http://www.helloyzy.cn/" title="ACERY" target="_blank">ACERY</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <div class="footer-top__item">
+                        <h3 class="item__title">构建工具</h3>
+                        <div class="item__content">
+                            <ul class="footer-top__list">
+                                
+                                    <li class="list-item">
+                                        <a href="https://hexo.io/" title="Blog Framework" target="_blank">Hexo</a>
+                                    </li>
+                                
+                                    <li class="list-item">
+                                        <a href="https://github.com/Mrminfive/hexo-theme-skapp" title="主题 hexo-theme-skapp" target="_blank">hexo-theme-skapp</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                
+            
+        </div>
+    </section>
+    <section class="footer__bottom">
+        <div class="page__container footer__container">
+            <p class="footer__copyright">©
+                2017 powered by
+                <a href="http://hexo.io/" target="_blank">Hexo</a>
+            </p>
+            <ul class="footer__social-network clearfix">
+                
+                
+                    <li class="social-network__item">
+                        <a href="https://github.com/jason-zuo" target="_blank" title="github">
+                            <i class="iconfont icon-github"></i>
+                        </a>
+                    </li>
+                
+                    <li class="social-network__item">
+                        <a href="dazuo:zuozh05@163.com" target="_blank" title="email">
+                            <i class="iconfont icon-email"></i>
+                        </a>
+                    </li>
+                
+                    <li class="social-network__item">
+                        <a href="/atom.xml" target="_blank" title="rss">
+                            <i class="iconfont icon-rss"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </section>
+</footer>
+        
+
+        
+            
+<div id="back-top" class="back-top back-top--hidden js-hidden">
+    <i class="iconfont icon-top"></i>
+</div>
+        
+    </div>
+
+    <script src="/js/common.js"></script>
+
+    
+    <script src="../../../../js/page/post.js"></script>
+
+
+    
+    
+
+
+    
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script></body></html>

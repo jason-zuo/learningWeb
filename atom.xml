@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>前端 -- 大左</title>
+  
+  <subtitle>前端</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="jason-zuo.github.io/"/>
+  <updated>2018-11-13T03:15:48.357Z</updated>
+  <id>jason-zuo.github.io/</id>
+  
+  <author>
+    <name>大左</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Http学习</title>
+    <link href="jason-zuo.github.io/2018/11/12/http%E5%AD%A6%E4%B9%A0/"/>
+    <id>jason-zuo.github.io/2018/11/12/http学习/</id>
+    <published>2018-11-12T11:54:06.000Z</published>
+    <updated>2018-11-13T03:15:48.357Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="http学习"><a href="#http学习" class="headerlink" title="http学习"></a>http学习</h4><h5 id="一、打开浏览器输入url有关数据加载过程"><a href="#一、打开浏览器输入url有关数据加载过程" class="headerlink" title="一、打开浏览器输入url有关数据加载过程"></a>一、打开浏览器输入url有关数据加载过程</h5><h5 id="二、网络协议分层"><a href="#二、网络协议分层" class="headerlink" title="二、网络协议分层"></a>二、网络协议分层</h5><p>五层网络模型： 应用层、传输层、网络层、数据链路层、物理层</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;http学习&quot;&gt;&lt;a href=&quot;#http学习&quot; class=&quot;headerlink&quot; title=&quot;http学习&quot;&gt;&lt;/a&gt;http学习&lt;/h4&gt;&lt;h5 id=&quot;一、打开浏览器输入url有关数据加载过程&quot;&gt;&lt;a href=&quot;#一、打开浏览器输入url有关数据加
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端模块化</title>
+    <link href="jason-zuo.github.io/2018/11/11/%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/"/>
+    <id>jason-zuo.github.io/2018/11/11/前端模块化/</id>
+    <published>2018-11-11T08:07:08.000Z</published>
+    <updated>2018-11-11T09:23:08.554Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="前端模块化"><a href="#前端模块化" class="headerlink" title="前端模块化"></a>前端模块化</h4><p>前端模块化分类总结:</p><table><thead><tr><th>名称</th><th>require.js</th><th>common.js</th><th>AMD</th><th>CMD</th><th>UMD</th></tr></thead><tbody><tr><td>定义</td><td>require</td><td>中等文本</td><td>稍微长一点的文本</td><td>稍微长一</td><td>稍微长一</td></tr><tr><td>导出</td><td>稍微长一点的文本</td><td>短文本</td><td>中等文本</td><td>中等文本</td><td>稍微长一</td></tr></tbody></table><h5 id="一、require-js"><a href="#一、require-js" class="headerlink" title="一、require.js"></a>一、require.js</h5><p>代码示例：<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">fun1</span><span class="params">()</span></span>&#123;</span><br><span class="line">      alert(<span class="string">"it works"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    fun1();</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p><p>优点：防止js加载阻塞页面渲染、 使用程序调用的方式加载js，防出现如下丑陋的场景</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;前端模块化&quot;&gt;&lt;a href=&quot;#前端模块化&quot; class=&quot;headerlink&quot; title=&quot;前端模块化&quot;&gt;&lt;/a&gt;前端模块化&lt;/h4&gt;&lt;p&gt;前端模块化分类总结:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;requir
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack插件以及api总结</title>
+    <link href="jason-zuo.github.io/2018/11/06/webpack%E6%8F%92%E4%BB%B6%E4%BB%A5%E5%8F%8Aapi%E6%80%BB%E7%BB%93/"/>
+    <id>jason-zuo.github.io/2018/11/06/webpack插件以及api总结/</id>
+    <published>2018-11-06T03:03:56.000Z</published>
+    <updated>2018-11-06T03:08:28.737Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="webpack插件以及api总结"><a href="#webpack插件以及api总结" class="headerlink" title="webpack插件以及api总结"></a>webpack插件以及api总结</h5><h5 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h5><h5 id="二、"><a href="#二、" class="headerlink" title="二、"></a>二、</h5><h5 id="三、"><a href="#三、" class="headerlink" title="三、"></a>三、</h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;webpack插件以及api总结&quot;&gt;&lt;a href=&quot;#webpack插件以及api总结&quot; class=&quot;headerlink&quot; title=&quot;webpack插件以及api总结&quot;&gt;&lt;/a&gt;webpack插件以及api总结&lt;/h5&gt;&lt;h5 id=&quot;一、&quot;&gt;&lt;a hr
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx常见配置</title>
+    <link href="jason-zuo.github.io/2018/11/04/nginx%E5%B8%B8%E8%A7%81%E9%85%8D%E7%BD%AE/"/>
+    <id>jason-zuo.github.io/2018/11/04/nginx常见配置/</id>
+    <published>2018-11-04T08:56:51.000Z</published>
+    <updated>2018-11-04T08:56:51.050Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>函数重载</title>
+    <link href="jason-zuo.github.io/2018/10/30/%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD/"/>
+    <id>jason-zuo.github.io/2018/10/30/函数重载/</id>
+    <published>2018-10-30T09:18:47.000Z</published>
+    <updated>2018-10-31T03:12:52.156Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="函数重载"><a href="#函数重载" class="headerlink" title="函数重载"></a>函数重载</h4><blockquote><p>指函数或者方法有相同的名称，但是参数的个数或者类型不相同的类型，这样同名但是不同参的函数互相称之为重载函数或者方法</p></blockquote><p>两种思想 ： 1、利用arguments类数组来判断接受参数的个数。 2、利用闭包保存以前注册进来的同名函数。利用闭包和args实现 3、或者通过proxy和arguments实现<br>。</p><p>1、</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;函数重载&quot;&gt;&lt;a href=&quot;#函数重载&quot; class=&quot;headerlink&quot; title=&quot;函数重载&quot;&gt;&lt;/a&gt;函数重载&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;指函数或者方法有相同的名称，但是参数的个数或者类型不相同的类型，这样同名但是不同参的函数互相称之为
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>socket.io</title>
+    <link href="jason-zuo.github.io/2018/10/29/socket-io/"/>
+    <id>jason-zuo.github.io/2018/10/29/socket-io/</id>
+    <published>2018-10-29T09:32:58.000Z</published>
+    <updated>2018-10-29T09:33:11.253Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="socket-io"><a href="#socket-io" class="headerlink" title="socket.io"></a>socket.io</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;socket-io&quot;&gt;&lt;a href=&quot;#socket-io&quot; class=&quot;headerlink&quot; title=&quot;socket.io&quot;&gt;&lt;/a&gt;socket.io&lt;/h4&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>react16.6新api学习</title>
+    <link href="jason-zuo.github.io/2018/10/29/react16-6%E6%96%B0api%E5%AD%A6%E4%B9%A0/"/>
+    <id>jason-zuo.github.io/2018/10/29/react16-6新api学习/</id>
+    <published>2018-10-29T08:37:41.000Z</published>
+    <updated>2018-10-29T09:30:07.771Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="react16-6学习"><a href="#react16-6学习" class="headerlink" title="react16.6学习"></a>react16.6学习</h4><h5 id="一、lazy"><a href="#一、lazy" class="headerlink" title="一、lazy"></a>一、lazy</h5><blockquote><p>配合suspense组件</p></blockquote><h6 id="二、React-memo"><a href="#二、React-memo" class="headerlink" title="二、React.memo"></a>二、React.memo</h6><h5 id="三、static-contextType"><a href="#三、static-contextType" class="headerlink" title="三、static.contextType"></a>三、static.contextType</h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;react16-6学习&quot;&gt;&lt;a href=&quot;#react16-6学习&quot; class=&quot;headerlink&quot; title=&quot;react16.6学习&quot;&gt;&lt;/a&gt;react16.6学习&lt;/h4&gt;&lt;h5 id=&quot;一、lazy&quot;&gt;&lt;a href=&quot;#一、lazy&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="react" scheme="jason-zuo.github.io/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Snabbdom源码以及虚拟dom学习</title>
+    <link href="jason-zuo.github.io/2018/09/10/snabbdom%E6%BA%90%E7%A0%81%E4%BB%A5%E5%8F%8A%E8%99%9A%E6%8B%9Fdom%E5%AD%A6%E4%B9%A0/"/>
+    <id>jason-zuo.github.io/2018/09/10/snabbdom源码以及虚拟dom学习/</id>
+    <published>2018-09-10T15:29:58.000Z</published>
+    <updated>2018-09-10T15:29:58.528Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mvvm框架基本实现原理学习</title>
+    <link href="jason-zuo.github.io/2018/04/05/mvvm%E6%A1%86%E6%9E%B6%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/"/>
+    <id>jason-zuo.github.io/2018/04/05/mvvm框架基本实现原理学习/</id>
+    <published>2018-04-05T14:42:54.000Z</published>
+    <updated>2018-04-05T14:42:54.359Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Webstorm中英文对照</title>
+    <link href="jason-zuo.github.io/2018/03/29/webstorm%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7/"/>
+    <id>jason-zuo.github.io/2018/03/29/webstorm中英文对照/</id>
+    <published>2018-03-29T14:52:54.000Z</published>
+    <updated>2018-03-29T14:54:39.937Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>看着webstorm的强大，决定适应一下使用websorm，再次记录一下编译器的英文选项对照</p></blockquote><p>1、</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;看着webstorm的强大，决定适应一下使用websorm，再次记录一下编译器的英文选项对照&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;1、&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端页面下载Ios App</title>
+    <link href="jason-zuo.github.io/2018/02/26/%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2%E4%B8%8B%E8%BD%BDios-app/"/>
+    <id>jason-zuo.github.io/2018/02/26/前端页面下载ios-app/</id>
+    <published>2018-02-26T05:30:58.000Z</published>
+    <updated>2018-03-01T17:21:45.545Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先会有两个 ios 开发提供的文件包，分别是以 </p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">.plist</span></span><br></pre></td></tr></table></figure><p>和</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">.ipa</span></span><br></pre></td></tr></table></figure><p>作为文件后缀</p><p>在前端中 a 标签里拼接路径需要按照一下路径格式</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">itms-services:<span class="regexp">//</span>?action=download-manifest&amp;url=https:<span class="regexp">//</span>www.xx.com<span class="regexp">/download/</span>xx.plist</span><br></pre></td></tr></table></figure><p>并且在 <figure class="highlight plain"><figcaption><span>以及两张大小尺寸图片</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### .plist文件基本内容如下</span><br></pre></td></tr></table></figure></p><p>&lt;?xml version=”1.0” encoding=”UTF-8”?&gt;<br>&lt;!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “<a href="http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;" target="_blank" rel="noopener">http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</a></p><plist version="1.0"><br><dict><br>    <key>items</key><br>    <array><br>        <dict><br>            <key>assets</key><br>            <array><br>                <dict><br>                    <key>kind</key><br>                    <string>software-package</string><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/uploads/soft/150518/app-A.ipa" target="_blank" rel="noopener">http://www.xxxx.com/uploads/soft/150518/app-A.ipa</a></string><br>                </dict><br>                <dict><br>                    <key>kind</key><br>                    <string>full-size-image</string><br>                    <key>needs-shine</key><br>                    <true><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/image.512x512.jpg" target="_blank" rel="noopener">http://www.xxxx.com/image.512x512.jpg</a></string><br>                </true></dict><br>                <dict><br>                    <key>kind</key><br>                    <string>display-image</string><br>                    <key>needs-shine</key><br>                    <true><br>                    <key>url</key><br>                    <string><a href="http://www.xxxx.com/image.57x57.png" target="_blank" rel="noopener">http://www.xxxx.com/image.57x57.png</a></string><br>                </true></dict><br>            </array><br>            <key>metadata</key><br>            <dict><br>                <key>bundle-identifier</key><br>                <string>com.xxx.xxx</string><br>                <key>bundle-version</key><br>                <string>2.0</string><br>                <key>kind</key><br>                <string>software</string><br>                <key>title</key><br>                <string>Installing the app</string><br>            </dict><br>        </dict><br>    </array><br></dict><br></plist><p>```</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;首先会有两个 ios 开发提供的文件包，分别是以 &lt;/p&gt;
+&lt;figure class=&quot;highlight asciidoc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="jason-zuo.github.io/2017/12/24/hello-world/"/>
+    <id>jason-zuo.github.io/2017/12/24/hello-world/</id>
+    <published>2017-12-24T08:20:08.159Z</published>
+    <updated>2018-03-01T17:22:21.429Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>React-Touch-Loader组件学习</title>
+    <link href="jason-zuo.github.io/2017/11/15/react-touch-loader%E7%BB%84%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    <id>jason-zuo.github.io/2017/11/15/react-touch-loader组件学习/</id>
+    <published>2017-11-15T08:09:58.000Z</published>
+    <updated>2018-03-01T17:22:05.145Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="react-touch-loader学习"><a href="#react-touch-loader学习" class="headerlink" title="react touch loader学习"></a>react touch loader学习</h4><h6 id="由于移动端项目中有下拉滚动加载更多，所以需要对该npm包进行简单的再封装，再次记录下来，作为学习记录"><a href="#由于移动端项目中有下拉滚动加载更多，所以需要对该npm包进行简单的再封装，再次记录下来，作为学习记录" class="headerlink" title="由于移动端项目中有下拉滚动加载更多，所以需要对该npm包进行简单的再封装，再次记录下来，作为学习记录"></a>由于移动端项目中有下拉滚动加载更多，所以需要对该npm包进行简单的再封装，再次记录下来，作为学习记录</h6><p>该npm包下载地址 : <a href="https://github.com/Broltes/react-touch-loader" target="_blank" rel="noopener">https://github.com/Broltes/react-touch-loader</a></p><p>感谢该组件的作者封装出来这么好用的组件，膜拜</p><hr><p>一、首先定义一个STAS对象，在该对象中定义了几种加载状态</p><table><thead><tr><th>init</th><th>‘’          (为空)</th></tr></thead><tbody><tr><td>pulling</td><td>pulling  (下拉)</td></tr><tr><td>enough</td><td>pulling enough (下拉到一定程度)</td></tr><tr><td>refreshing</td><td>refreshing (恢复中)</td></tr><tr><td>refreshed</td><td>refreshed (回复之前)</td></tr><tr><td>reset</td><td>reset  (复位)</td></tr><tr><td>loading</td><td>loading  (加载)</td></tr></tbody></table><p>之后定义了一个Tloader类并且定义了</p><p>1、loaderState:STATS.init</p><p>2、pullHeight : 0 </p><p>3、progressed ： 0   ( 头部加载条的进度 )</p><p>几种初始状态</p><hr><p>在componentWillReceiveProps的生命周期中<br>定义了如果<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nextprops<span class="selector-class">.initializing</span> &lt; <span class="number">2</span></span><br></pre></td></tr></table></figure></p><p> 的话设置progessed的状态为0</p><blockquote><p>注释为reset progress animation state( 重置进度动画状态 )</p></blockquote><hr><p>render函数中定义了</p><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; className, hasMore, initializing &#125; = <span class="keyword">this</span>.props;</span><br></pre></td></tr></table></figure><p>上级传过来的class名字、以及是否还有更多、头部进度条的状态</p><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const &#123; loaderState, pullHeight, progressed &#125; = this.<span class="keyword">state</span>;</span><br></pre></td></tr></table></figure><p>当前组件的状态</p><p>一个footer的组件定义的是如果还有更多则渲染一个底部加载动画，加载的div上绑定了一个点击事件<br><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">onClick = &#123; <span class="function"><span class="params">e</span> =&gt;</span> <span class="keyword">this</span>.loadMore(e)&#125;</span><br></pre></td></tr></table></figure></p><p>如此引出loadMore事件</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">loadMore() &#123;</span><br><span class="line">    <span class="keyword">this</span>.setState(&#123; loaderState: STATS.loading &#125;);</span><br><span class="line">    <span class="keyword">this</span>.props.onLoadMore(() =&gt; &#123;</span><br><span class="line">      <span class="comment">// resolve</span></span><br><span class="line">      <span class="keyword">this</span>.setState(&#123; loaderState: STATS.init &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><p>该事件将默认的loaderState定义为loading状态，并且引用了引用该Tloader方法的上层组件方法onLoadMore如果resolve说明加载完成并将loaderState设置为默认空</p><hr><p>并且所渲染的dom绑定了三个事件分别为onScroll、touchStart、touchMove、touchEnd第一个事件对应实现滚动移动距离之后加载更多，剩下三个事件对应下拉回弹并且刷新当前页面。</p><hr><h3 id="项目中遇到的问题"><a href="#项目中遇到的问题" class="headerlink" title="项目中遇到的问题"></a>项目中遇到的问题</h3><p>1、由于滚动条加在了最外层的div上所以，无法给Tloader加scroll的监听事件</p><p>2、如何在现在基础上封装出新的需求代码</p><p>（下拉到一定程度之后自动加载数据，**可以根据滑动速度加载更多）</p><hr><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>组件滚动条要加tloader组件上</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;react-touch-loader学习&quot;&gt;&lt;a href=&quot;#react-touch-loader学习&quot; class=&quot;headerlink&quot; title=&quot;react touch loader学习&quot;&gt;&lt;/a&gt;react touch loader学习&lt;/h4&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="react" scheme="jason-zuo.github.io/tags/react/"/>
+    
+      <category term="组件学习" scheme="jason-zuo.github.io/tags/%E7%BB%84%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git常用命令(完全学会git的24节课笔记)</title>
+    <link href="jason-zuo.github.io/2017/11/13/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>jason-zuo.github.io/2017/11/13/git常用命令/</id>
+    <published>2017-11-13T10:23:30.000Z</published>
+    <updated>2018-03-01T17:20:46.784Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h4><h4 id="一、git分支提交"><a href="#一、git分支提交" class="headerlink" title="一、git分支提交"></a>一、git分支提交</h4><h6 id="1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。"><a href="#1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。" class="headerlink" title="1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。"></a>1、如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，那么可以这么做。</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git push origin <span class="built_in">test</span>:master</span></span><br></pre></td></tr></table></figure><blockquote><p>提交本地test分支作为远程的master分支<br>$ git push origin test:test              // 提交本地test分支作为远程的test分支</p></blockquote><p>如果想删除远程的分支呢？类似于上面，如果:左边的分支为空，那么将删除:右边的远程的分支。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git push origin :<span class="built_in">test</span></span></span><br></pre></td></tr></table></figure><blockquote><p> 刚提交到远程的test将被删除，但是本地还会保存的，不用担心</p></blockquote><h6 id="2、展示当前代码仓库地址"><a href="#2、展示当前代码仓库地址" class="headerlink" title="2、展示当前代码仓库地址"></a>2、展示当前代码仓库地址</h6><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git remote -v</span></span><br></pre></td></tr></table></figure><h6 id="3、如果在commit之后想更改刚才提交的commit信息可以执行"><a href="#3、如果在commit之后想更改刚才提交的commit信息可以执行" class="headerlink" title="3、如果在commit之后想更改刚才提交的commit信息可以执行"></a>3、如果在commit之后想更改刚才提交的commit信息可以执行</h6><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit <span class="params">--amend</span> -m <span class="string">"新的信息"</span> <span class="params">--author=</span><span class="string">"用户名 &lt;邮箱&gt;"</span></span><br></pre></td></tr></table></figure><h6 id="4、-查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）"><a href="#4、-查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）" class="headerlink" title="4、 查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）"></a>4、 查看当前文档中有哪些文件可以执行（用图形查看模式查看文档）</h6><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">gitk</span></span><br></pre></td></tr></table></figure><p>此时右下角的方块里显示两种模式一种是patch模式一种是tree模式</p><p>patch： 记录了前后两次commit的差异</p><p>tree： 完整显示当前commit上文件内容</p><p>查看完文档之后结束图形操作模式，回到git bash执行<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure></p><p>这样下次在启动git bash会自动恢复之前离开的状态</p><h6 id="5、git的基本工作原理"><a href="#5、git的基本工作原理" class="headerlink" title="5、git的基本工作原理"></a>5、git的基本工作原理</h6><p>先修改文件，之后执行git add命令之后会把文件内容加入git系统的索引，接着执行git commit 指令将文件存入文档库。</p><h5 id="二、git配置文件"><a href="#二、git配置文件" class="headerlink" title="二、git配置文件"></a>二、git配置文件</h5><p>git有三个不同级别的配置文件，他们有不同的优先权，高优先权的文件设置项会覆盖低优先权文件中相同的设置项。</p><ul><li>文件中的  .git  子文件中的config文件<br>拥有最高的优先权。也就是说他的设置会覆盖其他配置文件中相同的设置项，例如在该文件中设置了A = B的话在别的文件中红设置A = C是不生效果的 （只针对当前文档库）</li></ul><ul><li>登陆账号的   home directory 中的.gitconfig文件<br>只有在前一个配置文件中没有设置的项，这个配置 文档的设置才会生效</li></ul><ul><li>git程序的安装文件夹中的    etc/gitcofig文件<br>  只有前两个文件中没有设置的项，在这个配置文件中设置才会生效，这是公共的配置文件，对所有的git文档库都生效。</li></ul><h6 id="1、git-config指令的使用"><a href="#1、git-config指令的使用" class="headerlink" title="1、git config指令的使用"></a>1、git config指令的使用</h6><p>查看当前git的设置值用</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>-l</span><br></pre></td></tr></table></figure><p>该指令会显示配置文件中所有的设置项，先显示优先级最低的设置</p><p>也即是前面的第三种文件形式中的设置， 接着是home directory中的最后优先级最高的文件设置。</p><h6 id="2、git-config配置命令"><a href="#2、git-config配置命令" class="headerlink" title="2、git config配置命令"></a>2、git config配置命令</h6><p>每次commit中的–author选项的默认配置<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>user.name <span class="string">"操作者姓名"</span></span><br><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>user.email <span class="string">"操作者的email"</span></span><br></pre></td></tr></table></figure></p><p>配置在登陆账号home directory中的.gitconfig文件<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--global user.name <span class="string">"操作者姓名"</span></span><br><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>--global user.email <span class="string">"操作者的email"</span></span><br></pre></td></tr></table></figure></p><p>以上配置项还可以写在安装程序中</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--system user.name <span class="string">"姓名"</span></span><br><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>--system user.email <span class="string">"email"</span></span><br></pre></td></tr></table></figure><blockquote><p>也就是说git config的选项可以写入任意i一个config配置文件中，–global 表示home directory中的.gitconfig配置文件，-system 表示git中的-etc\gitconfig 配置文件。</p></blockquote><p>如果要删除配置项目则执行</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">git<span class="built_in"> config </span>--unset user.name</span><br></pre></td></tr></table></figure><blockquote><p>git 指令的长短，例如git commit -m 的完整指令是git commit –message= ,而git config -l的完整写法是git config –list</p></blockquote><p>下边这一指令表示自定义长指令<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>alias.指令的别名“正式的指令和选项”</span><br></pre></td></tr></table></figure></p><h5 id="3、修改默认的文本编辑器和文本对比程序"><a href="#3、修改默认的文本编辑器和文本对比程序" class="headerlink" title="3、修改默认的文本编辑器和文本对比程序"></a>3、修改默认的文本编辑器和文本对比程序</h5><blockquote><p>使用背景 ：在commit的时候输入message过长可以使用文本编辑器</p></blockquote><p>程序默认的编辑器是vm编辑器</p><p>可以将起换成win自带的记事本命令如下:</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--global core.editor notepad</span><br></pre></td></tr></table></figure><p>如果想换成其他的编辑器，只要把nodepad换成其他程序的路径，如果路径中有空格可以用单引号或者双信号括起来，并加上启动程序的选项。</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--global core.editor <span class="string">"'c:/program Files (x86) /Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"</span></span><br></pre></td></tr></table></figure><p>对比文件</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git diff</span></span><br></pre></td></tr></table></figure><p>以下指令是对比文件所用的软件，需要自行配置<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git difftool</span></span><br></pre></td></tr></table></figure></p><h5 id="三、把文件传入git仓库"><a href="#三、把文件传入git仓库" class="headerlink" title="三、把文件传入git仓库"></a>三、把文件传入git仓库</h5><p>。。。未完待续</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;git常用指令&quot;&gt;&lt;a href=&quot;#git常用指令&quot; class=&quot;headerlink&quot; title=&quot;git常用指令&quot;&gt;&lt;/a&gt;git常用指令&lt;/h4&gt;&lt;h4 id=&quot;一、git分支提交&quot;&gt;&lt;a href=&quot;#一、git分支提交&quot; class=&quot;header
+      
+    
+    </summary>
+    
+    
+      <category term="git" scheme="jason-zuo.github.io/tags/git/"/>
+    
+  </entry>
+  
+</feed>
